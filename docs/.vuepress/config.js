@@ -3,6 +3,7 @@ const sidebar = require('./config/sidebar')
 
 import { defaultTheme } from 'vuepress'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import vuepressPluginAnchorRight from 'vuepress-plugin-anchor-right'
 import { path } from '@vuepress/utils'
  
 module.exports = {
@@ -12,7 +13,8 @@ module.exports = {
     plugins: [
         registerComponentsPlugin({
           componentsDir: path.resolve(__dirname, './components'),
-        })
+        }),
+        vuepressPluginAnchorRight()
     ],
     markdown: {
         code: {

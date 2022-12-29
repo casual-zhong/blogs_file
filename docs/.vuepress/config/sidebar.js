@@ -1,15 +1,30 @@
 module.exports = {
-  '/componentDocs/python/':[
+  '/componentDocs/css/':[
     {
       title: 'VuePress配置',
       children: [
         {
           text: 'python1',
-          link: '/componentDocs/python/index.md'
+          link: '/componentDocs/css/index.md'
         },
         {
           text: '博客园',
-          link: '/componentDocs/python/index1.md'
+          link: '/componentDocs/css/index1.md'
+        }
+      ]
+    }
+  ],
+  '/componentDocs/js/':[
+    {
+      title: 'VuePress配置',
+      children: [
+        {
+          text: 'python1',
+          link: '/componentDocs/js/index.md'
+        },
+        {
+          text: '博客园',
+          link: '/componentDocs/js/index1.md'
         }
       ]
     }

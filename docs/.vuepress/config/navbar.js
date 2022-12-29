@@ -8,9 +8,16 @@ module.exports = [
         link: '/componentDocs/guide/'
       },
       {
-        text: 'Python',
-        link: '/componentDocs/python/'
-        
+        text: '前端',
+        children: [{
+            text: 'CSS',
+            link: '/componentDocs/css/'
+          },
+          {
+            text: 'JavaScript',
+            link: '/componentDocs/js/'
+          }
+        ]
       },
       {
         text: '博客指南',

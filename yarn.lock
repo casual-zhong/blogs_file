@@ -1615,6 +1615,11 @@ vue@^3.2.45:
     "@vue/server-renderer" "3.2.45"
     "@vue/shared" "3.2.45"
 
+vuepress-plugin-anchor-right@^0.0.1-beta.7:
+  version "0.0.1-beta.7"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-anchor-right/-/vuepress-plugin-anchor-right-0.0.1-beta.7.tgz#02c0f063199792e143a17a004a039e94e2815031"
+  integrity sha512-w3K39Z9BO7Yb8YK9GSoy+OVzboKHwoEOKtMDsErUDY2jIe7zRur0JDfWYmhEKidKmAKSX/nHH7YQkDC4WHsMBQ==
+
 vuepress-vite@2.0.0-beta.59:
   version "2.0.0-beta.59"
   resolved "https://registry.yarnpkg.com/vuepress-vite/-/vuepress-vite-2.0.0-beta.59.tgz#8f25504cc0679d816b762c35ffbbb4079b5fffdf"

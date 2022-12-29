@@ -6,7 +6,8 @@ import clientConfig4 from 'C:/Users/MT/Desktop/MyFile/Project/blogs_file/node_mo
 import clientConfig5 from 'C:/Users/MT/Desktop/MyFile/Project/blogs_file/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import clientConfig6 from 'C:/Users/MT/Desktop/MyFile/Project/blogs_file/node_modules/@vuepress/theme-default/lib/client/config.js'
 import clientConfig7 from 'C:/Users/MT/Desktop/MyFile/Project/blogs_file/docs/.vuepress/.temp/register-components/clientConfig.08f25576.js'
-import clientConfig8 from 'C:/Users/MT/Desktop/MyFile/Project/blogs_file/docs/.vuepress/client.js'
+import clientConfig8 from 'C:/Users/MT/Desktop/MyFile/Project/blogs_file/node_modules/vuepress-plugin-anchor-right/src/config/client.js'
+import clientConfig9 from 'C:/Users/MT/Desktop/MyFile/Project/blogs_file/docs/.vuepress/client.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -18,4 +19,5 @@ export const clientConfigs = [
   clientConfig6,
   clientConfig7,
   clientConfig8,
+  clientConfig9,
 ]
